@@ -1,0 +1,20 @@
+{
+    "module_name": "Module",
+    "pom": "pom",
+    "requirements": "requirements",
+    "src": "src",
+    "main": "main",
+    "Project": "Project",
+    "commons": "commons",
+    "module_name2": "Submodule",
+    "spark_utils": "spark_utils",
+    "tests": "tests",
+    "test_main": "test_main",
+    "test_resources": "test_resources",
+    "python": "python",
+    "classes": "classes",
+    "data": "data",
+    "resources": "resources",
+    "params": "params",
+    "conf": "conf"
+}

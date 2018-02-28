@@ -1,0 +1,38 @@
+mkdir {{cookiecutter.module_name}}
+cd {{cookiecutter.module_name}}
+	touch {{cookiecutter.requirements}}.txt
+	touch {{cookiecutter.pom}}.xml
+	mkdir {{cookiecutter.src}} 
+	cd {{cookiecutter.src}}
+		mkdir {{cookiecutter.main}}
+		cd {{cookiecutter.main}}
+			touch {{cookiecutter.main}}.py
+			mkdir {{cookiecutter.Project}}
+			cd {{cookiecutter.Project}}
+				touch {{cookiecutter.Project}}_job.py
+				mkdir {{cookiecutter.commons}}
+				mkdir {{cookiecutter.module_name2}}
+				cd {{cookiecutter.module_name2}}
+					touch {{cookiecutter.main}}.py
+					touch {{cookiecutter.module_name2}}.py
+				cd ..
+				mkdir {{cookiecutter.Project}}Utils
+				mkdir {{cookiecutter.spark_utils}}
+			cd ..
+		cd ..
+		mkdir {{cookiecutter.tests}}
+		cd {{cookiecutter.tests}}
+			touch {{cookiecutter.test_main}}.py
+			mkdir {{cookiecutter.python}}
+		cd ..
+		mkdir {{cookiecutter.test_resources}}
+		cd {{cookiecutter.test_resources}}
+			mkdir {{cookiecutter.classes}}
+			mkdir {{cookiecutter.data}}
+		cd ..
+		mkdir {{cookiecutter.resources}}
+		cd {{cookiecutter.resources}}
+			touch {{cookiecutter.params}}.conf
+			touch {{cookiecutter.params}}.json
+		mkdir {{cookiecutter.conf}}
+
