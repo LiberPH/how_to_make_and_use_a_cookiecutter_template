@@ -10,8 +10,19 @@ is clear and easy and maybe better suited for learning prupose.
 
 ## Requirements
 * Linux or unix
-* Install python https://www.python.org/
-* Install cookiecutter 
-```
+* [Install python] (https://www.python.org/)
+* Install cookiecutter: 
+```python
 $ pip install cookiecutter
+```
+## Resources
+Two files are being provided you to use this template:
+* cookiecutter.json
+* cookie_cuter_for_ModuleAnalytics1
+
+The latter contains a list of all the directories and files to be created 
+
+To run it:
+```
+cookiecutter ../ModuleAnalytics1/
 ```
