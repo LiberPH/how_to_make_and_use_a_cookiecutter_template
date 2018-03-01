@@ -17,8 +17,8 @@ $ pip install cookiecutter
 ```
 ## Resources
 Two files are being provided you to use this template:
-* cookiecutter.json
-* cookie_cuter_for_ModuleAnalytics1
+* cookiecutter.json : dictionary with the default names used for the cookie cutter
+* cookie_cuter_for_ModuleAnalytics1 : structure of the template
 
 The latter contains a list of all the directories and files to be created as shown below:
 
@@ -29,6 +29,7 @@ And the first one a json where all the names that follow the word *cookiecutter*
 ## Making a template
 
 The template provided here is quite sturdy. You can make simpler ones considering:
+* All the words in brackets that follow **cookiecutter.** can be modified and changed for names that you choose once you create your backbone directories from the template.
 * **mkdir {{cookiecutter.name}}**: creates a new directory which you can name as you want once you run cookiecutter
 * **touch {{cookiecutter.name}}.txt**: creates a file which you can name as you want once you run cookiecutter. The file can have any extension that you prefer and may have some default contets as in http://cookiecutter.readthedocs.io/en/latest/first_steps.html which can also contain brackets to customize packages o words with cookiecutter.
 
